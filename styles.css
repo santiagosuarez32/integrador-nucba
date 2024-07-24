@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif ;
+    background-color: #e58f45;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo {
+    max-width: 100px;
+}
+
+.cart {
+    max-width: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    /* padding-bottom: 0.75rem; */
+}
+
+.link a {
+    position: relative;
+    color: #fff;
+    padding-bottom: 3px;
+}
+.cart a {
+    position: relative;
+    color: #fff;
+    padding: 5px;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #354746;
+    transition: all 0.3s ease;
+}
+.cart a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #354746;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+    width: 70%;
+}
+.cart a:hover::after {
+    width: 70%;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+
+
+header {
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+}
+
+header h1  {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+header span {
+    font-weight: 800;
+    color: aliceblue;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #354746;
+}
+
+header p {
+    color: #354746;
+    font-size: 20px;
+}
