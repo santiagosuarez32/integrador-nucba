@@ -38,7 +38,7 @@ nav {
 }
 
 .cart {
-    max-width: 30px;
+    max-width: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
     display: flex;
@@ -59,11 +59,6 @@ nav {
     position: relative;
     color: #fff;
     padding-bottom: 3px;
-}
-.cart a {
-    position: relative;
-    color: #fff;
-    padding: 5px;
 }
 
 .link a::after {
@@ -102,6 +97,14 @@ nav {
 }
 
 
+.cart a {
+    position: relative;
+    color: #fff;
+    padding-bottom: 3px;
+}
+
+
+
 
 header {
     position: relative;
@@ -109,6 +112,7 @@ header {
     display: grid;
     align-items: center;
     gap: 2rem;
+    
 }
 
 header h1  {
@@ -128,3 +132,13 @@ header p {
     color: #354746;
     font-size: 20px;
 }
+
+
+.hamburguesa {
+    max-width: 30%;
+    margin: auto;
+}
+
+
+
+
